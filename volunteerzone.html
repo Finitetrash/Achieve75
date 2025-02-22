@@ -13,5 +13,141 @@
       will be like, exept not really, because 
       this is a place holder.
     </p>
+    <section>
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .calendar {
+            border: 2px solid #ddd;
+            width: 300px;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .calendar-header h2 {
+            margin: 0;
+        }
+        .calendar-header button {
+            padding: 5px 10px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        .calendar-days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+        }
+        .calendar-days div {
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .calendar-days div:hover {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .calendar-days .day-name {
+            font-weight: bold;
+        }
+        .calendar-days .today {
+            background-color: #ffdd57;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <button id="prevMonth">Prev</button>
+            <h2 id="monthYear"></h2>
+            <button id="nextMonth">Next</button>
+        </div>
+        <div class="calendar-days">
+            <div class="day-name">Sun</div>
+            <div class="day-name">Mon</div>
+            <div class="day-name">Tue</div>
+            <div class="day-name">Wed</div>
+            <div class="day-name">Thu</div>
+            <div class="day-name">Fri</div>
+            <div class="day-name">Sat</div>
+        </div>
+        <div id="days" class="calendar-days"></div>
+    </div>
+
+    <script>
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        const date = new Date();
+        let currentMonth = date.getMonth();
+        let currentYear = date.getFullYear();
+
+        function renderCalendar() {
+            const firstDay = new Date(currentYear, currentMonth, 1);
+            const lastDay = new Date(currentYear, currentMonth + 1, 0);
+            const totalDays = lastDay.getDate();
+            const startDay = firstDay.getDay();
+            const monthYear = document.getElementById("monthYear");
+            const daysContainer = document.getElementById("days");
+
+            monthYear.textContent = `${monthNames[currentMonth]} ${currentYear}`;
+            daysContainer.innerHTML = "";
+
+            // Blank spaces before the first day of the month
+            for (let i = 0; i < startDay; i++) {
+                const emptyDiv = document.createElement("div");
+                daysContainer.appendChild(emptyDiv);
+            }
+
+            // Add days of the month
+            for (let i = 1; i <= totalDays; i++) {
+                const dayDiv = document.createElement("div");
+                dayDiv.textContent = i;
+                if (i === date.getDate() && currentMonth === date.getMonth() && currentYear === date.getFullYear()) {
+                    dayDiv.classList.add("today");
+                }
+                daysContainer.appendChild(dayDiv);
+            }
+        }
+
+        document.getElementById("prevMonth").addEventListener("click", () => {
+            currentMonth--;
+            if (currentMonth < 0) {
+                currentMonth = 11;
+                currentYear--;
+            }
+            renderCalendar();
+        });
+
+        document.getElementById("nextMonth").addEventListener("click", () => {
+            currentMonth++;
+            if (currentMonth > 11) {
+                currentMonth = 0;
+                currentYear++;
+            }
+            renderCalendar();
+        });
+
+        renderCalendar();
+    </script>
+</body>
+</html>
+    </section>
   </body>
 </html>
