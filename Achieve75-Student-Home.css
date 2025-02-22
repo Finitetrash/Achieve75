@@ -4,14 +4,14 @@
 body {
   background-color: black;
 }
-#myParagragh {
+.sp {
   color: white;
 }
 .Achieve75header {
   color: white;
 }
 .logoutbtn {
-  color: white;
+  text-color: white;
 }
 
 
