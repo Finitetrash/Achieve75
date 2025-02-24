@@ -1,3 +1,17 @@
+.b1 {
+  float: center;
+  margin-right: 75px;
+}
+
+.b2 {
+  float: center;
+}
+
+.b3 {
+  float: center;
+  margin-left: 75px;
+}
+
 
 body {
   background-color: black;
