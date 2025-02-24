@@ -1,21 +1,23 @@
      p {
- font-family:Georgia, 'Times New Roman', Times, serif;
- color: white;
- margin-top: 50px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     color: white;
+     margin-top: 50px;
 }
 body {
- background-color: Black;
+     background-color: Black;
 }
 h1 {
- color: white;
- margin-right: 700px;
- margin-bottom: -28px;
+     color: white;
+     margin-right: 700px;
+     margin-bottom: -28px;
 }
 .b1 {
-  float: top;
-  margin-top: 0px;
+     float: top;
+     float: right;
+     margin-top: 0px;
 }
 .b2 {
+     float: right;
      margin-left: 5px;
 }
 
