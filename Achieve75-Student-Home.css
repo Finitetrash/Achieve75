@@ -6,6 +6,10 @@ body {
 }
 .Achieve75header {
   color: white;
+  margin-bottom: -30px;
+}
+.logoutbtn {
+  float: right;
 }
 
 
