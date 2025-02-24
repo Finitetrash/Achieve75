@@ -1,16 +1,17 @@
 .b1 {
   padding: 10px;
   text-size-adjust: 90px;
-  margin-left: 500px;
+  margin-left: 300px;
   margin-top: 300px;
+  margin-right: 50px;
 }
 .b2 {
-  margin-left: 100px;
+  float: center;
   padding: 10px;
   text-size-adjust: 90px;
 }
 .b3 {
-  margin-left: 100px;
+  margin-left: 50px;
   padding: 10px;
   text-size-adjust: 90px;
 }
