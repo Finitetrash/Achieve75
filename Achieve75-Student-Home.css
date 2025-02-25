@@ -14,7 +14,10 @@ body {
 .hr1 {
   margin-top: 30px;
 }
-
+.bookmarked {
+  background-color: black;
+  color: white;
+}
 
 
 
