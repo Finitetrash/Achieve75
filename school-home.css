@@ -1,1 +1,22 @@
-
+.b1 {
+  margin-left: 426px; 
+}
+body {
+  background-color: black;
+}
+.Achieve75header {
+  color: white;
+  margin-bottom: -20px;
+}
+.logoutbtn {
+  float: right;
+}
+.hr1 {
+  margin-top: 0px;
+}
+.bookmarked {
+  background-color: black;
+  color: white;
+  margin-left: 300px;
+  outline-color: white;
+}
