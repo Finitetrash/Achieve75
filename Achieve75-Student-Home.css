@@ -35,13 +35,13 @@ body {
 .bookmarked {
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 5px 5px 5px;
   margin-left: auto;
   margin-right: 100px;
   margin-bottom: -40px;
   margin-top: 55px;
   display: block;
-  outline: 2px solid blue;
+  outline: 2px solid gray;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -125,7 +125,7 @@ article {
   }
 
 
-
+ 
 
 
 
