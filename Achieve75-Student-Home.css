@@ -11,7 +11,7 @@ body {
 /* Centering header */
 .Achieve75header {
   color: white;
-  margin-bottom: -20px;
+  margin-bottom: -50px;
   text-align: left; /* lefting the header */
 }
 
@@ -38,6 +38,7 @@ body {
   padding: 10px 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -30px;
   display: block;
   outline: none;
   border: none;
