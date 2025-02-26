@@ -41,8 +41,8 @@ body {
   margin-bottom: -40px;
   margin-top: 55px;
   display: block;
-  outline: none;
-  border: 2px;
+  outline: 2px;
+  border: white;
   border-radius: 5px;
   cursor: pointer;
   width: 200px;
