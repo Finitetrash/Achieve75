@@ -12,7 +12,7 @@ body {
 .Achieve75header {
   color: white;
   margin-bottom: -20px;
-  text-align: center; /* Centering the header */
+  text-align: left; /* lefting the header */
 }
 
 /* Styling for the logout button */
@@ -53,7 +53,7 @@ body {
 
 /* HR line styling */
 .hr1 {
-  margin-top: 0;
+  margin-top: 15px;
   border: 1px solid white;
 }
 
