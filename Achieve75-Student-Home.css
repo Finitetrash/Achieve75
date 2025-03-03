@@ -8,11 +8,16 @@ body {
 }
 
 .urmom {
-  min-width: 10%;
-  max-width: 15%;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
   outline: 2px solid gray;
-  min-hight: 80%;
-  max-hight: 85%;
 }
 
 /* Centering header */
