@@ -9,8 +9,10 @@ body {
 
 .urmom {
   min-width: 10%;
+  max-width: 15%;
   outline: 2px solid gray;
   min-hight: 80%;
+  max-hight: 85%;
 }
 
 /* Centering header */
