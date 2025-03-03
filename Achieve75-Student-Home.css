@@ -1,4 +1,4 @@
-
+  `````  
 
 body {
   background-color: black;
@@ -9,9 +9,9 @@ body {
 }
 
 .urmom {
-  width: 10%;
+  max-width: 10%;
   outline: 2px solid gray;
-
+  max-hight: 80%;
 }
 
 /* Centering header */
