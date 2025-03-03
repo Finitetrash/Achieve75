@@ -1,6 +1,6 @@
 
 body {
-  background-color: #122810;
+  background-color: black;
   color: white;
   font-family: Arial, sans-serif; /* Ensure better font rendering */
   margin: 0;
@@ -17,7 +17,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
-  outline: 2px solid gray;
+  outline: 4px solid gray;
 }
 
 /* Centering header */
@@ -53,7 +53,8 @@ body {
   margin-right: 80px;
   margin-bottom: -30px;
   margin-top: 55px;
-  padding: 5px;
+  padding-right: -15px;
+  padding-left: -15px;
   display: block;
   outline: 2px solid gray;
   border: none;
