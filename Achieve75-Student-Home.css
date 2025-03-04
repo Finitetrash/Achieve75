@@ -81,13 +81,24 @@ body {
   background-color: #555;
 }
 
-/* HR line styling */
-.hr1 {
-  margin-top: 15px;
-  border: 1px solid white;
+/* Styling for the 'b1' buttons */
+.bm   {
+  
+  background-color: #333;
+  color: white;
+  border: none;
+  margin-left: 240px;
+  margin-top: 180px;
+  width: 80%;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
-/* Styling for the 'b1' buttons */
+
 .b1 {
   background-color: #333;
   color: white;
