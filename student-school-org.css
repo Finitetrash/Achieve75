@@ -1,14 +1,13 @@
-.b1 {
-  margin-right: 75px;
-}
+
 
 .b2 {
-  margin: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 
-.b3 {
-  margin-left: 75px;
-}
+
 
 
 body {
