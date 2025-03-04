@@ -8,6 +8,7 @@ body {
 }
 
 .div1 {
+  float: right;
   height: 80px;
   width: 80%;
   position: fixed;
