@@ -87,6 +87,7 @@ body {
   border: none;
   margin-left: 260px;
   margin-top: 110px;
+  margin-bottom: 65px;
   width: 80%;
   border-radius: 10px;
   cursor: pointer;
@@ -102,7 +103,8 @@ body {
   color: white;
   border: none;
   margin-left: 260px;
-  margin-top: 50px;
+  margin-top: 65px;
+  margin-bottom: 65px;
   width: 80%;
   border-radius: 10px;
   cursor: pointer;
