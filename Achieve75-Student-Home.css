@@ -7,6 +7,8 @@ body {
   padding: 0;
 }
 
+@media (max-width: 768px) {
+
 .div1 {
   margin-left: 160px;
   height: 80px;
@@ -52,6 +54,13 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.logoutbtn {
+  float: none;
+  margin: 10px 0;
+  display: block;
+  width: 100%;
 }
 
 .logoutbtn:hover {
@@ -114,6 +123,10 @@ body {
   text-align: left;
 }
 
+.b1 {
+  width: 90%;
+}
+
 .b1:hover {
   background-color: #555;
 }
@@ -147,17 +160,11 @@ article {
 }
 
 /* Ensuring good mobile responsiveness */
-@media (max-width: 768px) {
-  .b1 {
-    width: 90%;
-  }
 
-  .logoutbtn {
-    float: none;
-    margin: 10px 0;
-    display: block;
-    width: 100%;
-  }
+  
+
+
+
 
 
 
