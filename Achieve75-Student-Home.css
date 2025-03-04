@@ -18,7 +18,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
-  outline: 4px solid gray;
+  outline: 2px solid gray;
 }
 
 .div2 {
@@ -62,7 +62,7 @@ body {
 .bookmarked {
   background-color: #333;
   color: white;
-  padding: 10px; /* Add some standard padding */
+  padding: 0px; /* Add some standard padding */
   margin-left: auto;
   margin-right: 80px;
   margin-bottom: -30px;
@@ -157,9 +157,6 @@ article {
     width: 100%;
   }
 
-  .bookmarked {
-    width: 100%;
-  }
 
 
  
