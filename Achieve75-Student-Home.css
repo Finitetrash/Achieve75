@@ -60,6 +60,7 @@ body {
   float: none;
   margin: 10px 0;
   display: block;
+  float: right;
 }
 
 .logoutbtn:hover {
