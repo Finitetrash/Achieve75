@@ -1,6 +1,14 @@
-
+.b1 {
+  display: block;
+  margin: auto;
+}
 
 .b2 {
+  display: block;
+  margin: auto;
+}
+
+.b3 {
   display: block;
   margin: auto;
 }
