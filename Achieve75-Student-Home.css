@@ -123,10 +123,6 @@ body {
   text-align: left;
 }
 
-.b1 {
-  width: 90%;
-}
-
 .b1:hover {
   background-color: #555;
 }
