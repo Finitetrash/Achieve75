@@ -46,7 +46,9 @@ body {
 
 /* Styling for the logout button */
 .logoutbtn {
+  display: block;
   float: right;
+  margin-bottom: -20px;
   margin-right: 20px;
   padding: 10px 20px;
   background-color: #333;
@@ -54,14 +56,6 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-}
-
-.logoutbtn {
-  float: none;
-  margin-bottom: -20px;
-  margin-right: 20px;
-  display: block;
-  float: right;
 }
 
 .logoutbtn:hover {
