@@ -58,7 +58,8 @@ body {
 
 .logoutbtn {
   float: none;
-  margin: 10px 0;
+  margin-bottom: -20px;
+  margin-right: 20px;
   display: block;
   float: right;
 }
